@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url("../imgs/tree_background.jpg");
+    background-position: center;
+    /* background-size: auto; */
+    /* background-repeat: no-repeat; */
+    width: 40vw;
+
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+}
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.heading h2 {
+    font-size: 1.5rem;
+    padding-left: 3vw;
+}
+
+.form {
+    padding-left: 3vw;
+    background-color: blanchedalmond;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-top: 2vh;
+    /* margin-right: 40vw; */
+    background-color: burlywood;
+
+}
+
