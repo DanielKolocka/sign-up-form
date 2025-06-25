@@ -67,6 +67,8 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: #f9fafb;
+    max-width: 70%;
+
 }
 
 .heading h2 {
@@ -100,10 +102,10 @@ a {
     padding: 5px 10px;
     width: 100%;
     font-size: 1rem;
-    margin-right: 20vw;
+    margin-right: 32px;
 }
 
-.inputs {
+.inputs > div{
     display: flex;
     flex-wrap: wrap;
     column-gap: 80px;
@@ -111,6 +113,15 @@ a {
     margin-bottom: 15px;
     /* margin-top: 0; */
 }
+
+.inputs label {
+  display: block;
+}
+
+input:invalid {
+    border-color: red;
+}
+
 
 .footer {
     display: flex;
