@@ -18,7 +18,7 @@ body {
     flex: 3;
     justify-content: space-between;
     color: white;
-    background-image: url("../imgs/tree_background.jpg");
+    background-image: url("imgs/tree_background.jpg");
     background-position: center;
     background-size: cover;
     /* background-repeat: no-repeat; */
